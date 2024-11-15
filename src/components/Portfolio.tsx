@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Sun, } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Sun } from 'lucide-react';
 
 const Portfolio = () => {
   return (
@@ -23,7 +23,7 @@ const Portfolio = () => {
         {/* Left Column - Text Content */}
         <div className="space-y-8">
           <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-sm">
-            It's me
+            It&apos;s me
           </div>
           
           <h1 className="text-5xl font-bold space-y-2">
@@ -55,7 +55,7 @@ const Portfolio = () => {
           </div>
 
           <button className="bg-red-400 text-white px-6 py-3 rounded-full hover:bg-red-500 transition-colors mt-8">
-            Let's talk
+            Let&apos;s talk
           </button>
         </div>
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
           {/* Profile Picture */}
           <div className="relative w-full aspect-square mb-8">
             <img
-              src="/profile.png"  // Aquí deberás colocar la ruta a tu imagen
+              src="/profile-image.jpg"
               alt="Pablo ithesk"
               className="rounded-3xl object-cover w-full h-full"
             />
