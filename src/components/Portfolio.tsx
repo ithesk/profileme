@@ -64,7 +64,7 @@ const Portfolio = () => {
           {/* Profile Picture */}
           <div className="relative w-full aspect-square mb-8">
             <img
-              src="/profile-image.jpg"
+              src="/profile.png"
               alt="Pablo ithesk"
               className="rounded-3xl object-cover w-full h-full"
             />
