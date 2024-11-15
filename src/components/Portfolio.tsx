@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Sun, Moon } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Sun, } from 'lucide-react';
 
 const Portfolio = () => {
   return (
